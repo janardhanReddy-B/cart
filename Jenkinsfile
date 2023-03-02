@@ -1,7 +1,7 @@
 pipeline {
 agent any
 
-  steps {
+  stages {
     stage('download  dependcices ') {
       steps {
         sh 'npm install'
